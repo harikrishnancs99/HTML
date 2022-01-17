@@ -1,0 +1,19 @@
+<html>
+<body>
+<script type="text/javascript">
+var a
+a=parseInt(prompt("Enter the number"));
+if(a<=0){
+  document.write("Cannot provide factors")
+}
+else{
+ document.write("Factors are:\n")
+ for (let i=0; i<((a/2)+1); i++){
+     if(a%i==0){
+     document.write(+i,"\n\n")
+  }
+  }
+}
+</script>
+</body>
+</html>
