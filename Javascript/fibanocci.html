@@ -1,0 +1,28 @@
+<html>
+<body>
+<script>
+var x=parseInt(prompt("Enter number:"));
+var f=0,s=1
+
+if(x<0)
+{
+     document.write("Count is zero")
+}
+if(x>=1)
+{
+      document.write(+f,"<br>")
+}
+if(x>=2)
+{
+     document.write(+s,"<br>")
+     for(let i=1;i<(x-1);i++)
+      {
+          document.write(f+s,"<br>")
+          t=f
+          f=s
+          s=t+s
+      }
+}
+</script>
+</body>
+</html>

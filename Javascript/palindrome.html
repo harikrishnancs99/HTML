@@ -1,0 +1,29 @@
+<html>
+<body>
+<script>
+var n=parseInt(prompt("Enter number:"));
+var r=0,b=n,ld,sum=0,c=n
+while(n!=0)
+{
+     ld=n%10;
+     r=(r*10)+ld;
+     n=Math.floor(n/10);
+}
+if(r==b)
+{
+    document.write("It is palindrome","<br>")
+}
+else
+{
+    document.write("Not palindrome","<br>")
+}
+while (c != 0)
+{
+       sum =sum+(c%10)
+       c = Math.floor(c/10)
+}
+document.write("Sum=",+sum)
+
+</script>
+</body>
+</html>

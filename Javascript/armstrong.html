@@ -1,0 +1,22 @@
+<html>
+<body>
+<script>
+var a=parseInt(prompt("Enter number"));
+var temp=a,sum=0,r;
+while(a>0)
+{
+ r=a%10;
+ sum=sum+(r*r*r);
+ a=Math.floor(a/10);
+}
+if(sum==temp)
+{
+     document.write("Armstrong")
+}
+else
+{
+     document.write("Not armstrong")
+}
+</script>
+</body>
+</html>    
